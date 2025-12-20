@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "arkcraft:tenroll_headhunting_permit",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "arkcraft:headhunting_permit",
+    "count": 10
+  }
+}
