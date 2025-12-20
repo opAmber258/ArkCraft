@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "arkcraft:item/wolf_material_helmet",
+    "layer1": "arkcraft:item/wolf_material_helmet_overlay"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "arkcraft:block/dr_s_bag"
+      },
+      {
+        "model": "arkcraft:block/dr_s_bag",
+        "y": 90
+      },
+      {
+        "model": "arkcraft:block/dr_s_bag",
+        "y": 180
+      },
+      {
+        "model": "arkcraft:block/dr_s_bag",
+        "y": 270
+      }
+    ]
+  }
+}
