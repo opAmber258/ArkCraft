@@ -6,6 +6,7 @@ import com.ArkCraft.arkCraft.Items.Armors.WolfSkinArmor;
 import com.ArkCraft.arkCraft.Items.Items.*;
 import com.ArkCraft.arkCraft.Items.Weapons.Crowbar;
 import com.ArkCraft.arkCraft.Items.Tiers.CyanStoneTier;
+import com.ArkCraft.arkCraft.Items.Weapons.BranchStaff;
 import com.ArkCraft.arkCraft.Render.CustomStyle;
 import com.ArkCraft.arkCraft.Utils;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -111,5 +112,10 @@ public class ModItems {
             () -> new WolfSkinArmor(ModArmorMaterials.WolfMaterialLeggings, ArmorItem.Type.LEGGINGS));
     public static final RegistryObject<Item>  Wolf_Boots = ITEMS.register("wolf_boots",
             () -> new WolfSkinArmor(ModArmorMaterials.WolfMaterialBoots, ArmorItem.Type.BOOTS));
+
+
+    public static final RegistryObject<Item> Branch_Staff = ITEMS.register("branch_staff",
+            () -> new BranchStaff(new Item.Properties().rarity(CustomStyle.Rough)));
+
 
 }

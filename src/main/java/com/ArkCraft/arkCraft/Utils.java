@@ -13,7 +13,7 @@ public class Utils {
     public static final String MOD_ID = "arkcraft";
 
     public static Map<Item, Double>attackDamage = new HashMap<>();
-
+    public static Map<Item, Double>manaDamage = new HashMap<>();
     public static Map<Item, Float>attackSpeed = new HashMap<>();
 /*
     public static Map<Player, Double> playerAttackCooldown = new HashMap<>();
@@ -30,10 +30,13 @@ public class Utils {
     public static Map<Item, Double> movementSpeedCommon = new HashMap<>();
 
     public static Map<Item, Double> maxHealth = new HashMap<>();
+    public static Map<Item, Double> attackRange = new HashMap<>();
 
     public static Map<Item, Double> defence = new HashMap<>();
 
     public static HashMap<Item,Double> swordTag = new HashMap<>();
+
+    public static HashMap<Item,Double> staffTag = new HashMap<>();
 
     public static HashMap<Item, Double> mainHandTag = new HashMap<>();
 

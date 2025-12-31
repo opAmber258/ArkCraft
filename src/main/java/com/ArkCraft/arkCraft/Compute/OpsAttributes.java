@@ -1,13 +1,5 @@
 package com.ArkCraft.arkCraft.Compute;
 
-import com.ArkCraft.arkCraft.Items.ArkCraftItems.ManageEquip;
-import com.ArkCraft.arkCraft.Utils;
-import com.google.common.collect.ImmutableMap;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.Item;
-
-import java.util.HashMap;
-import java.util.Map;
 /*
 public class OpsAttributes {
     public static double attackDamage = 0;

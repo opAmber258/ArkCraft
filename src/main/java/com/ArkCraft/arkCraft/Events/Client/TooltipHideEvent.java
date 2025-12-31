@@ -1,11 +1,12 @@
 package com.ArkCraft.arkCraft.Events.Client;
 
 import com.ArkCraft.arkCraft.Items.Armors.ArkCraftArmors;
+import com.ArkCraft.arkCraft.Items.Weapons.ArkCraftMainHandEquip;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.event.entity.player.ItemTooltipEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import com.ArkCraft.arkCraft.Items.Weapons.ArkCraftWeapons;
+
 import java.util.Iterator;
 import net.minecraft.network.chat.Component;
 
@@ -15,7 +16,7 @@ public class TooltipHideEvent {
     @SubscribeEvent
     public static void onTooltipRender(ItemTooltipEvent event) {
         ItemStack stack = event.getItemStack();
-        if (stack.getItem() instanceof ArkCraftWeapons | stack.getItem() instanceof ArkCraftArmors) {
+        if (stack.getItem() instanceof ArkCraftMainHandEquip | stack.getItem() instanceof ArkCraftArmors) {
             Iterator<Component> iterator = event.getToolTip().iterator();
             int removeLinesLeft = 0;
             while (iterator.hasNext()) {

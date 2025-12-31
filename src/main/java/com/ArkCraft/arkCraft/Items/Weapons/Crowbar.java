@@ -11,18 +11,21 @@ import java.util.List;
 
 
 
-public class Crowbar extends ArkCraftWeapons {
+public class Crowbar extends ArkCraftSword {
 
     public Crowbar(Properties properties,double attackDamage, float attackSpeed) {
         super(properties, attackSpeed);
         Utils.attackDamage.put(this, attackDamage);
         Utils.attackSpeed.put(this,4 + attackSpeed);
+        Utils.attackRange.put(this, 3d);
         Utils.arkcraftItems.add(this);
     }
 
+
+
     @Override
-    public Component getType(ItemStack itemStack) {
-        return Component.literal("近战");
+    public Component getBranch(ItemStack itemStack) {
+        return Component.literal("重剑").withStyle(ChatFormatting.RED);
     }
 
     @Override
@@ -34,5 +37,4 @@ public class Crowbar extends ArkCraftWeapons {
                 .withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC));
         return components;
     }
-
 }

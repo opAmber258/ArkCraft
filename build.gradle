@@ -7,7 +7,7 @@ plugins {
 }
 
 
-version = "0.2.4" // 你的模组版本
+version = "0.2.5" // 你的模组版本
 group = "com.ArkCraft" // 你的包名（类似Java包结构）
 archivesBaseName = "arkcraft" // 模组ID（小写，无特殊字符）
 

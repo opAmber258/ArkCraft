@@ -20,7 +20,7 @@ license="${mod_license}"
 # The modid of the mod
 modId="arkcraft" #mandatory
 # The version number of the mod
-version="0.2.4" #mandatory
+version="0.2.5" #mandatory
 # A display name for the mod
 displayName="ArkCraft" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/

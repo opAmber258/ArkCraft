@@ -40,7 +40,10 @@ public class Attack {
         if (!Utils.isArkCraftMobs(mob)) {
             return;
         }
-
+        if (Utils.attackDamage.getOrDefault(player.getItemInHand(InteractionHand.MAIN_HAND).getItem()
+                , 0d) == 0){
+            return;
+        }
         UUID id = player.getUUID();
 
         int max = Utils.attackCooldownMax.getOrDefault(id, 0);

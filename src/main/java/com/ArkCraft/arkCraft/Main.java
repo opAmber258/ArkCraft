@@ -72,6 +72,7 @@ public class Main {
             event.accept(ModItems.Wolf_Leggings.get().getDefaultInstance());
             event.accept(ModItems.Wolf_Boots.get().getDefaultInstance());
             event.accept(ModItems.Crowbar.get().getDefaultInstance());
+            event.accept(ModItems.Branch_Staff.get().getDefaultInstance());
         }
     }
 }
